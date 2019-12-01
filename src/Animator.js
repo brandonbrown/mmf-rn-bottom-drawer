@@ -92,8 +92,7 @@ const styles = {
   }),
   roundedEdges: rounded => {
     return rounded == true && {
-      borderTopLeftRadius: 10,
-      borderTopRightRadius: 10,
+      borderRadius: 15
     }
   },
   shadow: shadow => {
