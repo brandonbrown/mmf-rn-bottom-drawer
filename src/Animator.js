@@ -85,7 +85,7 @@ export default class Animator extends Component{
 
 const styles = {
   animationContainer: (height, color) => ({
-    width: SCREEN_WIDTH,
+    width: SCREEN_WIDTH - 20,
     position: 'absolute',
     height: height + Math.sqrt(SCREEN_HEIGHT),
     backgroundColor: color,
